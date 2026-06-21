@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SpeechBoard</string>
+    <string name="ime_name">SpeechBoard large speech keyboard</string>
+    <string name="setup_title">SpeechBoard setup</string>
+    <string name="setup_description">A full-size speech button with built-in letter, number, and symbol keyboards. Password fields open typing automatically, and custom phrases can bias recognition.</string>
+    <string name="grant_microphone">Grant microphone access</string>
+    <string name="open_keyboard_settings">Enable SpeechBoard</string>
+    <string name="show_keyboard_picker">Choose active keyboard</string>
+    <string name="instructions">Tap anywhere to dictate. Long-press for the built-in typing keyboard. Tap SPEAK to return.</string>
+    <string name="bias_phrases_label">Recognition bias phrases</string>
+    <string name="bias_phrases_hint">One word or phrase per line, such as names, app terms, or custom vocabulary</string>
+    <string name="save_bias_phrases">Save recognition phrases</string>
+    <string name="import_bias_sources">Import dictionary and contacts</string>
+    <string name="bias_sources_imported">Imported %1$d dictionary words and %2$d contact names.</string>
+    <string name="contacts_permission_denied">Contacts permission denied. Dictionary/contact import was not run.</string>
+    <string name="bias_phrases_saved">Recognition phrases saved.</string>
+    <string name="test_hint">Tap here to test SpeechBoard</string>
+    <string name="active_speechboard">Active keyboard: SpeechBoard</string>
+    <string name="enabled_not_active">SpeechBoard is enabled but not active. Select SpeechBoard in the keyboard picker now.</string>
+    <string name="not_enabled">SpeechBoard is not enabled. Tap “Enable SpeechBoard” first.</string>
+    <string name="run_launch_test">Run keyboard launch test</string>
+    <string name="launch_test_not_run">Launch test: not run</string>
+    <string name="launch_test_running">Launch test: waiting up to 5 seconds for SpeechBoard…</string>
+    <string name="launch_test_passed">PASS: SpeechBoard’s input view launched after the test began.</string>
+    <string name="launch_test_failed">FAIL: %1$s</string>
+    <string name="launch_test_not_enabled">SpeechBoard is installed but not enabled as an input method.</string>
+    <string name="launch_test_not_selected">SpeechBoard is enabled but not selected. Current keyboard: %1$s</string>
+    <string name="launch_test_never_launched">SpeechBoard is selected, but onStartInputView() never ran within 5 seconds.</string>
+</resources>
